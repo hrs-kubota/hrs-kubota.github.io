@@ -2,12 +2,20 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8"/>
+  <style>
+  @media (max-width: 639px) {
+    video {
+      width: 100%;
+      height: auto;
+    }
+  }
+  </style>
 </head>
 <body>
 <h1>HLS サンプル001</h1>
 
 
-<video id="video" width="90%" muted controls></video>
+<video id="video" width="800" muted controls></video>
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <!-- Or if you want a more recent canary version -->
